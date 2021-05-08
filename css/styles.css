@@ -45,10 +45,23 @@ p {
 }
 
 /* Навигация сайта */
-.site-nav,
-.nav-flex,
-.contacts-nav,
 .contenier-flex {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin: auto;
+  justify-content: flex-start;
+}
+
+.nav-flex {
+  display: flex;
+  align-items: center;
+}
+.nav-flex .logo {
+  margin-right: 94px;
+}
+
+.site-nav {
   display: flex;
 }
 
@@ -83,6 +96,14 @@ p {
 }
 
 /* Контакты в шапке сайта */
+.contacts-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
 
 .contacts-nav .link {
   color: var(--praimeri-text-color);
@@ -160,6 +181,9 @@ p {
 /* Наши преимущества */
 .section-advange {
   margin-bottom: 94px;
+}
+.advange-flex {
+  display: flex;
 }
 
 .advange .title {
