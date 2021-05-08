@@ -1,0 +1,185 @@
+:root {
+  --praimeri-text-color: #757575;
+  --titel-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-text-color: #ffffff;
+}
+
+body {
+  color: var(--praimeri-text-color);
+  background: FFFFFF;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+/* логотип компнаиии */
+.logo {
+  color: #000000;
+  text-decoration: none;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-blue {
+  color: #2196f3;
+}
+
+/* Навигация сайта */
+.site-nav .link {
+  color: var(--titel-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Контакты в шапке сайта */
+.contacts-nav .link {
+  color: var(--praimeri-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* button */
+.button {
+  color: var(--white-text-color);
+  background: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+/* .button-active {
+  color: var(--white-text-color);
+  background: var(--accent-color);
+  font-weight: 500;
+  line-height: 1.6;
+} */
+
+.button-sorting {
+  background: #f5f4fa;
+  color: var(--titel-text-color);
+  font-weight: 500;
+  line-height: 1.6;
+}
+.sorting .button-sorting:hover,
+.sorting .button-sorting:focus {
+  color: var(--white-text-color);
+  background: var(--accent-color);
+}
+
+/* Главная страница сайта*/
+/* Герой */
+.hero .title {
+  color: var(--white-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: grey; /* Временный фон чтоб был виден заголовок*/
+}
+
+/* Section */
+.section-title {
+  color: var(--titel-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* Наши преимущества */
+.advange .title {
+  color: var(--titel-text-color);
+}
+
+/*  Наша команда */
+.team .title {
+  color: var(--titel-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
+
+.team .profession {
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
+
+/* Футер*/
+.footer {
+  background: #2f303a; /* Временный фон чтоб был виден текст*/
+}
+.footer .logo {
+  color: var(--white-text-color);
+}
+.footer .address {
+  color: var(--white-text-color);
+  line-height: 1.7;
+  font-style: normal;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.footer .telefon,
+.footer .email {
+  line-height: 1.7;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+
+/* Страница портфолио сайта */
+.sorting {
+  text-decoration: none;
+}
+
+.card .title {
+  color: var(--titel-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.card .link {
+  text-decoration: none;
+}
+
+.card .text {
+  color: var(--praimeri-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+}
