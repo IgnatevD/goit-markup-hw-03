@@ -48,9 +48,12 @@ p {
 .contenier-flex {
   display: flex;
   align-items: center;
-  width: 1170px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: auto;
   justify-content: flex-start;
+  border-bottom: 1px solid #ececec;
 }
 
 .nav-flex {
