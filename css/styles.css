@@ -14,7 +14,20 @@ body {
   letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -32,7 +45,22 @@ body {
 }
 
 /* Навигация сайта */
+.site-nav,
+.nav-flex,
+.contacts-nav,
+.contenier-flex {
+  display: flex;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--titel-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -48,8 +76,14 @@ body {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+.contenier {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
 
 /* Контакты в шапке сайта */
+
 .contacts-nav .link {
   color: var(--praimeri-text-color);
   text-decoration: none;
@@ -94,32 +128,59 @@ body {
 
 /* Главная страница сайта*/
 /* Герой */
+.hero {
+  text-align: center;
+  margin-bottom: 94px;
+}
+
 .hero .title {
+  margin: auto;
+  margin-bottom: 30px;
+
+  width: 696px;
   color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   letter-spacing: 0.06em;
-  background: grey; /* Временный фон чтоб был виден заголовок*/
+  background-color: red; /* Временный фон чтоб был виден заголовок*/
 }
 
 /* Section */
 .section-title {
+  margin-bottom: 50px;
   color: var(--titel-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
+  background-color: red;
 }
 
 /* Наши преимущества */
+.section-advange {
+  margin-bottom: 94px;
+}
+
 .advange .title {
+  margin-bottom: 10px;
   color: var(--titel-text-color);
 }
 
+/* Чем мы занимаемся */
+.section-work {
+  margin-bottom: 94px;
+}
+
 /*  Наша команда */
+.section-comanda {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+
 .team .title {
+  margin-bottom: 10px;
   color: var(--titel-text-color);
   font-weight: 500;
   font-size: 16px;
