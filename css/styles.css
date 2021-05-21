@@ -305,11 +305,11 @@ p {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-
+/* 
 .footer .link:hover,
 .footer .link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* Страница портфолио сайта */
 .contenier-portfolio {
